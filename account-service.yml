@@ -1,5 +1,13 @@
+spring:
+  profiles: default
 server:
   port: 8081
+
+---
+spring:
+  profiles: instance
+server:
+  port: 8082
 eureka:
   client:
     serviceUrl:
