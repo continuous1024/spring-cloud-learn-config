@@ -1,0 +1,15 @@
+
+spring:
+  profiles: default
+server:
+  port: 9091
+
+---
+spring:
+  profiles: instance
+server:
+  port: 9092
+eureka:
+  client:
+    serviceUrl:
+defaultZone: http://localhost:8761/eureka/
