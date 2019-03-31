@@ -1,2 +1,6 @@
 server:
   port: 9094
+
+feign:
+  hystrix:
+    enabled: true
