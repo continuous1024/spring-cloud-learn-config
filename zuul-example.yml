@@ -1,0 +1,8 @@
+server:
+  port: 9095
+  
+zuul:
+  routes:
+    api-hello:
+      path: /hi/**
+      serviceId: HELLO-WORLD-EXAMPLE
