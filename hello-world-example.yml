@@ -12,6 +12,9 @@ spring:
     trace:
       enabled: true
 
+config:
+  name: huanyuTest
+  
 server:
   port: 9091
       
