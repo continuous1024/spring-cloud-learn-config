@@ -1,22 +1,19 @@
 
 spring:
   profiles: default
-server:
-  port: 9091
-
-spring:
   rabbitmq:
     host: localhost
     port: 5672
     username: guest
     password: guest
-
-spring:
   cloud:
     bus:
       enabled: true
     trace:
       enabled: true
+
+server:
+  port: 9091
       
 management:
   endpoints:
