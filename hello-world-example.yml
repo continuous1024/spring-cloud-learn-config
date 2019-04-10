@@ -28,7 +28,3 @@ spring:
   profiles: instance
 server:
   port: 9092
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://peer1:8762/eureka/
